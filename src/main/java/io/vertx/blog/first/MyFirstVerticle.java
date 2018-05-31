@@ -4,6 +4,7 @@ import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Future;
 import io.vertx.core.http.HttpServerResponse;
 import io.vertx.core.json.Json;
+import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
 import io.vertx.ext.web.handler.BodyHandler;
@@ -42,6 +43,8 @@ public class MyFirstVerticle extends AbstractVerticle {
         router.post("/api/whiskies").handler(this::addOne);
         router.delete("/api/whiskies/:id").handler(this::deleteOne);
         router.get("/api/whiskies/:id").handler(this::getOne);
+        router.put("/api/whiskies/:id").handler(this::updateOne);
+
 
 
         vertx
@@ -97,6 +100,26 @@ public class MyFirstVerticle extends AbstractVerticle {
             routingContext.response()
                     .putHeader("content-type", "application/json; charset=utf-8")
                     .end(Json.encodePrettily(products.get(idAsInteger)));
+        }
+    }
+
+    private void updateOne(RoutingContext routingContext) {
+        final String id = routingContext.request().getParam("id");
+        JsonObject json = routingContext.getBodyAsJson();
+        if (id == null || json == null) {
+            routingContext.response().setStatusCode(400).end();
+        } else {
+            final Integer idAsInteger = Integer.valueOf(id);
+            Whisky whisky = products.get(idAsInteger);
+            if (whisky == null) {
+                routingContext.response().setStatusCode(404).end();
+            } else {
+                whisky.setName(json.getString("name"));
+                whisky.setOrigin(json.getString("origin"));
+                routingContext.response()
+                        .putHeader("content-type", "application/json; charset=utf-8")
+                        .end(Json.encodePrettily(whisky));
+            }
         }
     }
 }
