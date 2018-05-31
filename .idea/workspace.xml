@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb294214-d391-4af7-8a38-fa34511334a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/vertx/blog/first/MyFirstVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/vertx/blog/first/MyFirstVerticle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/vertx/blog/first/Whisky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/vertx/blog/first/Whisky.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/vertx/blog/first/MyFirstVerticleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/vertx/blog/first/MyFirstVerticleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/vertx/blog/first/MyRestIT.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,19 +14,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyFirstVerticle.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyFirstVerticle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/vertx/blog/first/MyFirstVerticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="273">
+              <caret line="96" column="37" lean-forward="true" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/assets/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
+            <state relative-caret-position="208">
               <caret line="114" column="55" selection-start-line="114" selection-start-column="49" selection-end-line="114" selection-end-column="55" />
             </state>
           </provider>
@@ -97,6 +92,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>add a</find>
+      <find>getOne</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -117,7 +118,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="331" />
     <option name="y" value="47" />
     <option name="width" value="1920" />
@@ -317,7 +318,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="962" y="0" width="958" height="1080" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -329,10 +331,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32890365" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22859922" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3250346" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.480167" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18541667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -349,6 +351,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/io/vertx/blog/first/MyFirstVerticle.java">
@@ -445,17 +452,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/vertx/blog/first/MyFirstVerticle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="208">
+          <caret line="114" column="55" selection-start-line="114" selection-start-column="49" selection-end-line="114" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/vertx/blog/first/MyFirstVerticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="114" column="55" selection-start-line="114" selection-start-column="49" selection-end-line="114" selection-end-column="55" />
+        <state relative-caret-position="273">
+          <caret line="96" column="37" lean-forward="true" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
         </state>
       </provider>
     </entry>
